@@ -1,0 +1,108 @@
+:root {
+    --color-elementos:  rgb(16, 104, 139);
+    --color-fondo: rgb(248, 248, 248);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--color-fondo);
+}
+figure {
+    float: left;
+    margin: 0 1em;
+}
+#imagenBanco {
+    width: 70px;
+    height: 70px;
+}
+header {
+    padding: 1em;
+    background-color: var(--color-elementos);
+}
+#logoTitulo {
+    width: 300px;
+}
+#logoTitulo a {
+    text-decoration: none;
+}
+header hgroup {
+    text-align: left;
+    color: var(--color-fondo);
+}
+nav {
+    background-color: rgb(12, 25, 31);
+    color: var(--color-fondo);
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+} 
+nav ul li a {
+    color: var(--color-fondo);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: var(--color-fondo);
+    color: rgb(12, 25, 31);
+}
+section {
+    float:left;
+    width: 100%;
+    max-width: 2500px;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+}
+article div {
+    text-align: center;
+}
+article div hgroup {
+    text-align: center;
+}
+article div hgroup h1 {
+    font-size: 4em;
+}
+article div button {
+    width: 200px;
+    margin: 6em auto;
+    padding: 1em;
+    background-color: rgb(16, 104, 139);
+    color: var(--color-fondo);
+    border-radius: 10px;
+    font-size: 1em;
+}
+article div button:hover {
+    background-color: rgb(12, 25, 31);
+}
+.articulo:nth-child(odd){
+    color: var(--color-fondo);
+}
+.articulo:nth-child(even) {
+    color: var(--color-elementos);
+}
+#articulo_cuentas_corrientes {
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../recursos/Cuentas_corrientes.png');
+    background-size: cover;
+}
+#articulo_cuentas_ahorros {
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../recursos/Ahorros.png');
+    background-size: cover;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: rgb(12, 25, 31);;
+    color: var(--color-fondo);
+    padding: 2em;
+}
