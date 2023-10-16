@@ -51,6 +51,48 @@ nav ul li a:hover {
     background-color: var(--color-fondo);
     color: rgb(12, 25, 31);
 }
+#menu {
+    display: flex;
+    position: absolute;
+    top: calc(auto);
+}
+.menuDesplegableNav {
+    padding: 2em;
+    background-color: var(--color-fondo);
+    width: 400px;
+    visibility: hidden;
+}
+.menuDesplegableNav ul li {
+    list-style: none;
+    color: var(--color-elementos);
+    padding: 10px 20px;
+}
+.menuDesplegableNav ul li:hover {
+    background-color:  rgb(12, 25, 31);
+    color: var(--color-fondo);
+}
+.menuDesplegableNav ul li a {
+    color: var(--color-elementos);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.menuDesplegableNav ul li a:hover {
+    background-color: rgb(12, 25, 31);
+    color: var(--color-fondo);
+}
+#menuCuentas {
+    margin-left: 0;
+}
+#menuInversiones {
+    margin-left: -300px;
+}
+#menuTarjetas {
+    margin-left: -300px;
+}
+#menuSeguros {
+    margin-left: -300px;
+}
+
 section {
     float:left;
     width: 100%;
